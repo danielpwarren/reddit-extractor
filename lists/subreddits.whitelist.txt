@@ -1,0 +1,6 @@
+# List of subreddits to include, one subreddit name per line
+NoStupidQuestions
+AskReddit
+answers
+ExplainLikeImFive
+AskScience

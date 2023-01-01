@@ -1,3 +1,2 @@
-*.zst
-*.log
-sha256sums.txt
+data
+logs

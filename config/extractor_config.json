@@ -1,0 +1,13 @@
+{
+    "min-depth": 2,
+    "max-depth": 999,
+    "min-score": 1,
+    "title": 0,
+    "leaves-only": 1,
+    "files": "data/reddit",
+    "target": "data/out",
+    "subreddits-whitelist": "--wl_subreddits ./lists/subreddits.whitelist.txt",
+    "url": "https://files.pushshift.io/reddit",
+    "start-date": "2008-01",
+    "end-date": "2022-10"
+}

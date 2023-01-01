@@ -97,14 +97,7 @@ def download_file(filename):
 
             return True
         else:
-            logger.error(f'{filename} corrupted, retrying download')
-            path.unlink()  # delete corrupted file
-            if retries < 1:
-                # retry download
-                return download_file(filename, retries=retries + 1)
-            else:
-                logger.error(f'{filename} download failed after 1 retry')
-                return False
+            logger.error(f'{filename} corrupted')
 
 parser = argparse.ArgumentParser(
     description="This is a program that extracts data from Reddit's public comment and submission history and stores it in a specified directory.")
