@@ -112,8 +112,8 @@ def gpt_norm_sentence(txt):
 	txt = re.sub('MENTION','__mention__',txt)
 	txt = re.sub('URL','__url__',txt)
 
-	tokenizer = TweetTokenizer(preserve_case=True)
-	txt = ' ' + ' '.join(tokenizer.tokenize(txt)) + ' '
+	#tokenizer = TweetTokenizer(preserve_case=True)
+	#txt = ' ' + ' '.join(tokenizer.tokenize(txt)) + ' '
 
 	# remove un-necessary space
 	return ' '.join(txt.split())
